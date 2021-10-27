@@ -1,0 +1,38 @@
+:root{
+  --black: #000000;
+  --red: #FF0000;
+  --blue: #0000FF;
+  --blueAqua: #00ffff;
+  --white: #FFFFFF;
+  --green: #01DF01;
+}
+
+
+header{
+    background-color: var(--blueAqua);
+    width: 98%;
+}
+
+ul{
+    display: flex;
+    margin: 0px;
+}
+
+li{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14pt;
+    margin-left: 20%;
+    list-style: none;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+a:hover{
+   color: var(--red);
+}

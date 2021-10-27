@@ -1,0 +1,17 @@
+:root{
+    --black: #000000;
+    --red: #FF0000;
+    --blue: #0000FF;
+    --blueAqua: #00ffff;
+    --white: #FFFFFF;
+    --green: #01DF01;
+  }
+
+footer{
+    background-color: var(--blueAqua);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    font-size: 14pt;
+}

@@ -1,0 +1,52 @@
+:root{
+    --black: #000000;
+    --red: #FF0000;
+    --blue: #0000FF;
+    --blueAqua: #00ffff;
+    --white: #FFFFFF;
+    --green: #01DF01;
+    --gray: #BDBDBD;
+  }
+
+form{
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 10px 10px 0px var(--black);
+}
+
+h1{
+    color: var(--gray);
+}
+
+label{
+    font-size: 14pt;
+    margin: 10px;
+    font-weight: bold;
+}
+
+input{
+    padding: 4px;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 10px;
+    color: var(--white);
+    font-size: 10pt;
+    border-color: var(--blue);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: var(--blue);
+}
+
+button:hover{
+    cursor: pointer;
+    color: var(--black);
+    border-color: var(--red);
+    text-transform: uppercase;
+    background-color: var(--red);
+  }
